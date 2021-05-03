@@ -1,0 +1,65 @@
+$color1: #283149;   /**azul oscuro */
+$color2: #404b69;   /**azul gris */
+$color3: #f73819;   /**rojo */
+$color4: #dbedf3;   /**gris claro */
+
+
+.navbar {
+    background-color: #283149;
+
+}
+
+
+body {
+    background-color: #dbedf3;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-link {
+    color:white;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #f73819;
+    border-radius: 15px;
+    border-color: #f73819;
+    color: white;        
+        &:hover{
+          background-color: darken($color3, 5%);
+          border-color: darken($color3, 5%);
+        }
+        &:focus {
+          background-color: $color3;
+          border-color: $color3;
+          box-shadow: none;
+      }
+     }
+
+h5 {
+    color: $color1;
+    font-size: 25px;
+    background-color:$color4;
+   
+}
+h6 {
+    color:white;
+    font-size: 20px;
+}
+.box{
+    display:flex;
+    justify-content: space-between;
+    background-color: #283149;
+}
+
+.footerr {
+    background-color: $color2;
+    width: 100%;
+}
+.texto {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.text-end {
+    text-decoration: none;
+}

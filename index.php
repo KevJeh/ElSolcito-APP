@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <?php include 'sistema/includes/scripts.php'?></head>
+    <link  href="css/estilosform.css" rel="stylesheet">
+
+<body class="body">
+    <?php require_once 'inicio_sesion.php'?>
+    
+    <section class = container>
+    
+        <form action="" method="POST">
+            <div class = "container">
+            
+                <div class ="row justify-content-center h-100">
+                    <div class ="col-6">
+                        <div class ="form-box p-5 shadow-sm" style="margin-top: 100px">
+                        <h1>Iniciar Sesión</h1>
+            <br>
+            <br>
+            
+            <div class="form-group">
+                <label for="usuario">Nombre de Usuario</label>
+                <input type="text" name="usuario" class="form-control" id="usuario" placeholder="Usuario">
+            
+            </div>
+            
+            <div class="form-group">
+                <label for="clave">Password</label>
+                <input type="password" name="clave" class="form-control" id="clave" placeholder="Contraseña">
+            
+            </div>
+            
+            <div class="form-group">
+
+            <input type="submit" class="buttons btn-primary btn-block" value="Ingresar">
+            <a href="presentacion/index.html" class="volver btn-success btn-block" >Volver</a>
+            
+    
+            
+            </div>
+            </div>
+            </div>
+             </div>        
+        </div>
+        </form>
+    </section>
+</body>
+</html>

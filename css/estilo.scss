@@ -1,0 +1,70 @@
+$color1: #283149;
+$color2: #404b69;
+$color3: #f73819;
+$color4: #dbedf3;
+
+header {
+  background-color: $color1;
+}
+.navbar {
+  background-color: $color1;
+}
+
+img{
+  width: 175px;
+
+}
+
+.navbar-nav {
+  align-items: center;
+  justify-content: flex-end;
+}
+.btn-primary{
+  background-color: $color3;
+  border-color: $color3;
+  color: #FAFAFAFA;
+  border-radius: 15px;
+  &:hover{
+    background-color: darken($color3, 5%);
+    border-color: darken($color3, 5%);
+  }
+  &:focus {
+    background-color: $color3;
+    border-color: $color3;
+    box-shadow: none;
+}
+
+}
+h5 {
+  color: yellow;
+  font-size: 40px;
+  font-style: bold;
+
+}
+
+p {
+  color: yellow;
+  font-size: 20px;
+  font-style: bold;
+}
+.carousel-item {
+
+  position: relative;
+  display: none;
+  float: left;
+
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform .6s ease-in-out;
+}
+body{
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;}

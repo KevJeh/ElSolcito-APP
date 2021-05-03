@@ -1,0 +1,18 @@
+$color1: #283149;
+$color2: #404b69;
+$color3: #f73819;
+$color4: #dbedf3;
+
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover{
+color:$color3;
+}
+.navbar {
+    background-color: blue;
+}
+.navbar-dark .navbar-brand {
+    color:$color3;
+}
+.dropdown-item{ 
+    color:$color3;
+}

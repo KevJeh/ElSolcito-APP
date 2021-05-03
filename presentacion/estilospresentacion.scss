@@ -1,0 +1,94 @@
+$color1: #283149;   /**azul oscuro */
+$color2: #868fa8;   /**azul gris */
+$color3: #f73819;   /**rojo */
+$color4: #dbedf3;   /**gris claro */
+
+body {
+  background-color: $color4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
+  .cajas {
+    background: rgb(134,143,168);
+    background: linear-gradient(90deg, rgba(134,143,168,1) 13%, rgba(130,199,222,1) 57%);     
+    color: #000000;
+    border-radius: 20px; 
+  }
+
+ header{
+    height: 50px;  
+    background-color:$color1;
+    background-image: linear-gradient(to left top, #283149, #2c364f, #313a55, #353f5b, #3a4461, #46536f, #52627d, #5f728b, #7a90a4, #98aebe, #b8cdd8, #dbedf3);
+  }
+
+ footer{
+      background-color:$color1;
+      height: 50px;
+      color: white;
+      align-content: center;
+      padding: 10px;
+      
+  }
+  
+
+ 
+.jumbotron{
+    
+    background: hsla(224, 16%, 59%, 1);
+
+    background: radial-gradient(circle, hsla(224, 16%, 59%, 1) 0%, hsla(224, 29%, 22%, 0.8) 50%, hsla(195, 50%, 91%, 1) 100%);
+    
+    background: -moz-radial-gradient(circle, hsla(224, 16%, 59%, 1) 0%, hsla(224, 29%, 22%, 0.8) 50%, hsla(195, 50%, 91%, 1) 100%);
+    
+    background: -webkit-radial-gradient(circle, hsla(224, 16%, 59%, 1) 0%, hsla(224, 29%, 22%, 0.8) 50%, hsla(195, 50%, 91%, 1) 100%);
+    
+  }
+
+  .btn {
+    background-color: #f73819;
+    border-radius: 15px;
+    border-color: #f73819;
+    color: white; 
+    vertical-align: inherit; 
+    margin-top: 5px;     
+        &:hover{
+          background-color: darken($color3, 5%);
+          border-color: darken($color3, 5%);
+        }
+        &:focus {
+          background-color: $color3;
+          border-color: $color3;
+          box-shadow: none;
+      }
+     }
+.circular-square{
+      margin-top: 5px;
+      border-radius: 10px;
+      margin-right: 5px;
+      box-shadow: 3px 3px #283149;
+
+    }
+    
+.texto,.display-4{
+      font-family: 'Nunito Sans', sans-serif;
+      font-style: justify;
+      color: #000000; 
+      text-decoration: none;
+
+    }
+
+nav{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+
+

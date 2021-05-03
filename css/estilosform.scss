@@ -1,0 +1,83 @@
+$color1: #283149;
+$color2: #404b69;
+$color3: #f73819;
+$color4: #dbedf3;
+
+
+
+.body{
+  background-color: $color2;
+}
+
+h1 {
+  text-align: center;
+}
+.form-box{
+background-color: $color4;
+margin-top: 100px;
+
+}
+
+.form-group
+{
+  position: relative;
+}
+
+.form-control
+{
+  border-radius: 10px;
+  &:focus{
+    border-color: $color1;
+    box-shadow: none;
+  }}
+
+.right-addon
+{
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    font-size: 20px;
+  }
+
+
+
+.buttons
+{
+    color: #fafafafa;
+    background-color: $color3;
+    border-color: $color3;
+    border-radius: 30px;
+    height: 35px;
+  &:hover{
+    background-color: darken($color3, 5%);
+    border-color: darken($color3, 5%);
+  }
+  &:focus {
+    background-color: $color3;
+    border-color: $color3;
+    box-shadow: none;
+  }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+        color: #fff;
+        background-color: #008c9e;
+        border-color: #008c9e;
+      }
+
+.btn-link
+{
+  color:$color1;
+  text-decoration: underline;
+  &:hover {
+    color: darken($color1, 5%);
+    box-shadow: none;
+  }
+}
+
+.volver {
+  border-radius: 30px;
+  height: 35px;
+  text-align: center;
+  line-height: 32px;
+}
